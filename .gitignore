@@ -1,0 +1,22 @@
+# Previous nested repositories (local backup only)
+.git-backups/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies and generated files
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.egg-info/
+
+# Local logs and OS files
+*.log
+.DS_Store
+Thumbs.db
